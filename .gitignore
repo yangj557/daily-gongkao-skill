@@ -2,8 +2,10 @@
 /data/state.json
 /data/wrong_answers.jsonl
 /data/answer_records.jsonl
-/data/ocr_results
-/data/raw_pdfs
+/data/ocr_results/*
+!/data/ocr_results/.gitkeep
+/data/raw_pdfs/*
+!/data/raw_pdfs/.gitkeep
 
 # Python cache
 __pycache__/
@@ -16,4 +18,5 @@ __pycache__/
 .vscode
 
 # codex
+agents
 AGENTS.md
