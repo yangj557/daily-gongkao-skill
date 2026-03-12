@@ -1,0 +1,15 @@
+# Local runtime data
+/data/state.json
+/data/wrong_answers.jsonl
+/data/answer_records.jsonl
+/data/ocr_results
+/data/raw_pdfs
+
+# Python cache
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+
+AGENTS.md

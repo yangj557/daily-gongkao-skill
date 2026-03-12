@@ -1,0 +1,4 @@
+interface:
+  display_name: "每日公考"
+  short_description: "定时推送行测题、自动批改解析、沉淀错题并输出月度报告"
+  default_prompt: "使用 $daily-gongkao 为用户设置每日行测推送并处理批改与月报。"
